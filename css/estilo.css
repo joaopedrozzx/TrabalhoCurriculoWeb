@@ -1,0 +1,110 @@
+/*estilo geral da pagina*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define a fonte do texto */
+    background-color: #f5f5f5; /* Define a cor de fundo da página */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    color: #333; /* Define a cor do texto */
+}
+
+/*cabeçalho*/
+header {
+    background: #003366; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    padding: 40px 20px; /* Adiciona espaço interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra ao cabeçalho */
+}
+
+/*barra de navegação*/
+nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra à barra de navegação */
+}
+
+/*estilo da lista de links */
+nav ul {
+    list-style: none; /* Remove as marcas de lista padrão */
+    padding: 10px; /* Adiciona espaço interno à lista */
+    display: flex; /* Usa flexbox para alinhar os itens */
+    justify-content: center; /* Centraliza os itens na linha */
+}
+
+/*estilo itens da lista*/
+nav ul li {
+    margin: 0 15px; /* Define a margem lateral dos itens */
+}
+
+/*estilo link*/
+nav a {
+    color: #003366; /* Define a cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    font-weight: bold; /* Define os links como negrito */
+    transition: color 0.3s; /* Cria uma transição suave na mudança de cor */
+}
+
+/*cor de quando passar o mouse em cima */
+nav a:hover {
+    color: #0056b3; /* Muda a cor do link ao passar o mouse */
+}
+
+.linkedin{
+    margin-top: 10px;
+}
+
+.linkedin a{
+    color: white;
+    font-size: x-large;
+    
+}
+
+/*estilo da onde vai escrever*/
+section {
+    background: white; /* Define a cor de fundo da seção */
+    margin: 20px auto; /* Cria espaço acima e abaixo e centraliza */
+    padding: 30px; /* Adiciona espaço interno */
+    border-radius: 8px; /* Arredonda os cantos da seção */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    max-width: 800px; /* Define a largura máxima da seção */
+}
+/*titulo*/
+h1 {
+    margin: 0; /* Remove a margem padrão do título H1 */
+}
+
+h2 {
+    color: #003366; /* Define a cor do título H2 */
+    border-bottom: 2px solid #007BFF; /* Adiciona uma borda inferior */
+    padding-bottom: 10px; /* Adiciona espaço abaixo do título */
+}
+
+/*lista nao ordenada*/
+ul {
+    padding-left: 20px; /* Adiciona espaço à esquerda dos itens da lista */
+}
+
+/*rodapé da pagina*/
+footer {
+    text-align: center; /* Centraliza o texto no rodapé */
+    margin-top: 40px; /* Adiciona espaço acima do rodapé */
+    padding: 15px; /* Adiciona espaço interno ao rodapé */
+    background: #003366; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+}
+
+/*links rodapé*/
+footer a {
+    color: #ffffff; /* Define a cor dos links no rodapé */
+    text-decoration: underline; /* Adiciona sublinhado aos links */
+}
+
+/*responsividade*/
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Altera a direção dos itens para coluna */
+        align-items: center; /* Centraliza os itens */
+    }
+    nav ul li {
+        margin: 10px 0; /* Define a margem vertical dos itens */
+    }
+}
+
